@@ -1,0 +1,19 @@
+{
+
+  "description": "Adds all pride flags to all sites, because unicode won't.",
+  "manifest_version": 3,
+  "name": "Pricons",
+  "version": "1.0",
+  "homepage_url": "https://discord.com/channels/741754081957249055/743520388285202494",
+  "icons": {
+    "100": "icons/icon100transparent.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["main.js"]
+    }
+  ]
+
+}
