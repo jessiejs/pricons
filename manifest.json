@@ -1,9 +1,9 @@
 {
 
   "description": "Adds all pride flags to all sites, because unicode won't.",
-  "manifest_version": 3,
+  "manifest_version": 2,
   "name": "Pricons",
-  "version": "1.0",
+  "version": "1.1",
   "homepage_url": "https://github.com/codelikecraze/pricons",
   "icons": {
     "100": "icons/icon100transparent.png"
